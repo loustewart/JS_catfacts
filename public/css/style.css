@@ -1,0 +1,39 @@
+.header {
+    position: fixed;
+    font-size: 20px;
+    background-color: #943888;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-family: monospace;
+    position:fixed;
+    text-align:center;
+}
+
+
+#cat-facts{
+  padding-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  flex-direction: column;
+}
+
+#cat-facts div {
+  font-family: monospace;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0);
+  border-radius: 5px;
+  margin: 10px;
+  text-align: center;
+  padding: 5px;
+}
+
+
+#cat-facts > div:nth-child(odd) {
+background-color: rgba(235, 135, 195, 0.31);
+}
+
+#cat-facts > div:nth-child(even) {
+background-color: rgba(170, 240, 245, 0.9);
+}
