@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
+
   const factContainer = document.querySelector('#cat-facts');
   const catView = new CatView(factContainer);
   catView.bindEvents();

@@ -1,18 +1,23 @@
 .header {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
     position: fixed;
     font-size: 20px;
-    background-color: #943888;
+    background-color: rgba(246, 208, 231, 0.78);
     top: 0;
     left: 0;
     width: 100%;
-    font-family: monospace;
+    font-family: quiet meows;
     position:fixed;
     text-align:center;
 }
 
 
 #cat-facts{
-  padding-top: 100px;
+  padding-top: 140px;
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
@@ -24,16 +29,19 @@
   border-style: solid;
   border-color: rgba(0, 0, 0, 0);
   border-radius: 5px;
-  margin: 10px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   text-align: center;
   padding: 5px;
 }
 
 
 #cat-facts > div:nth-child(odd) {
-background-color: rgba(235, 135, 195, 0.31);
+background-color: rgba(115, 99, 108, 0.95);
 }
 
 #cat-facts > div:nth-child(even) {
-background-color: rgba(170, 240, 245, 0.9);
+background-color: rgba(194, 160, 180, 0.94);
 }
